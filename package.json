@@ -1,0 +1,22 @@
+{
+  "name": "module-example",
+  "version": "1.0.0",
+  "description": "本项目将包含常用的node模块的使用例子，长期更新。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddzyan/node-module-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddzyan/node-module-example/issues"
+  },
+  "homepage": "https://github.com/ddzyan/node-module-example#readme",
+  "dependencies": {
+    "sequelize": "^4.38.0"
+  }
+}
