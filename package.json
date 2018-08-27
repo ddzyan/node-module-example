@@ -16,12 +16,6 @@
     "url": "https://github.com/ddzyan/node-module-example/issues"
   },
   "homepage": "https://github.com/ddzyan/node-module-example#readme",
-  "dependencies": {
-    "sequelize": "^4.38.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
