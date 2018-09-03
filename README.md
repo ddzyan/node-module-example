@@ -11,3 +11,4 @@
 - 添加winston 日志模块快速上手教程
 - 添加pm2 node进行管理快速上手教程
 - 添加jsonschema 参数验证模块快速上手
+- 添加axios Promise的HTTP客户端快速上手
