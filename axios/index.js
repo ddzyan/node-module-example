@@ -50,7 +50,7 @@ class HttpClient {
 
 (async function () {
     try {
-        const httpClient = new HttpClient('http://10.200.172.165', 3000);
+        const httpClient = new HttpClient('www.baidu..com', 3000);
         const result = await httpClient.postHttp('watchonly/latestblock', {
             currencyName: 'EOS',
         });
