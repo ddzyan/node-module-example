@@ -16,6 +16,9 @@
     "url": "https://github.com/ddzyan/node-module-example/issues"
   },
   "homepage": "https://github.com/ddzyan/node-module-example#readme",
-  "dependencies": {},
+  "dependencies": {
+    "redis": "^2.8.0",
+    "redlock": "^3.1.2"
+  },
   "devDependencies": {}
 }
