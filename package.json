@@ -18,7 +18,8 @@
   "homepage": "https://github.com/ddzyan/node-module-example#readme",
   "dependencies": {
     "redis": "^2.8.0",
-    "redlock": "^3.1.2"
+    "redlock": "^3.1.2",
+    "tracer": "^0.9.6"
   },
   "devDependencies": {}
 }
