@@ -14,3 +14,4 @@
 - 添加axios Promise的HTTP客户端快速上手
 - 添加redis操作
 - 添加console.log 输出文件路径和行号
+- 添加crypto 进行加密和解密
