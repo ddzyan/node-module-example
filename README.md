@@ -1,7 +1,7 @@
 # 简介
 本项目将包含常用的node模块的使用例子，长期更新。
  
-本人博客：www.zmscode.cn
+本人博客：www.zmscode.cn  
 
 长期更新 nodejs 和区块链 相关博文。
 
