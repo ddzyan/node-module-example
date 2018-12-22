@@ -15,3 +15,6 @@
 - 添加redis操作
 - 添加console.log 输出文件路径和行号
 - 添加crypto 进行加密和解密
+
+#### [2018-12-23]
+更新 koa-await-breakpoint 模块使用方法。在koa服务中，对 await 表达式前后自动打点，记录每个请求到来时 await 表达式前后的现场.
