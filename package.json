@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/ddzyan/node-module-example#readme",
   "dependencies": {
+<<<<<<< HEAD
     "koa": "^2.6.2",
     "koa-await-breakpoint": "^1.1.0",
     "koa-router": "^7.4.0",
+=======
+    "md5": "^2.2.1",
+>>>>>>> df5d4566d64fd32615f284b7f8c53571ef441e35
     "redis": "^2.8.0",
     "redlock": "^3.1.2",
     "tracer": "^0.9.6"
