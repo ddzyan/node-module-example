@@ -18,3 +18,6 @@
 
 ## [2018-12-23]
 更新 koa-await-breakpoint 模块使用方法。在koa服务中，对 await 表达式前后自动打点，记录每个请求到来时 await 表达式前后的现场.
+
+## [2018-12-25]
+更新 sequelize orm模型使用demo
