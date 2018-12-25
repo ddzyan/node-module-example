@@ -8,4 +8,4 @@ module.exports = (sequlize, DataTypes) => {
     }
 
     return teacher;
-}
+};
