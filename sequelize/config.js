@@ -2,9 +2,9 @@ module.exports = {
   mysql_db: {
     database: "demo",
     username: "test",
-    password: "w6ecb0qljc",
+    password: "xxxx",
     options: {
-      host: "111.231.215.55",
+      host: "xxxxxxx",
       port: 3306,
       dialect: "mysql",
       pool: {

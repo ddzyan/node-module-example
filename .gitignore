@@ -6,3 +6,4 @@ node_modules
 .nodejs-grunt
 
 package-lock.json
+sequelize/config.js
