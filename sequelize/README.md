@@ -7,3 +7,4 @@ sequelize orm模型使用demo
 2. 创建 2张表，关系为1对多
 3. 循环遍历文件夹，创建model对象
 4. 通过sync方法，在mysql中创建表
+5. 添加sequlize配置文件,添加sequelize-auto模块使用方法
