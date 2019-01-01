@@ -21,3 +21,6 @@
 
 ## [2018-12-25]
 更新 sequelize orm模型使用demo
+
+## [2019-1-2]
+ [更新 sequelize 模块](https://github.com/ddzyan/node-module-example/tree/master/sequelize)
