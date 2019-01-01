@@ -7,7 +7,7 @@ npm i
 
 npm i mocha -g
 
-mocha
+npm run test:sequelize
 ```
 
 ### 更新记录
@@ -21,3 +21,10 @@ mocha
 #### [2018-12-26]
 1. 添加dao实例对象，用来操作model。
 2. 添加测试用例
+
+#### [2019-1-2]
+1. 修改model，创建新的teacher,student和classroom表
+2. 添加单元测试启动指令
+
+表间关系为：
+![Image 表间关系](./images/table_telationship.png)

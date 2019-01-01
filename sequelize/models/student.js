@@ -1,14 +1,23 @@
 module.exports = (sequlize, DataTypes) => {
     const student = sequlize.define('student', {
-        studentName: DataTypes.STRING(20)
+        studentId:{
+            type:DataTypes.INTEGER(11),
+            allowNull:false,
+            commet:'学生ID'
+        },
+        studentName:{
+            type: DataTypes.STRING(20),
+            allowNull:false,
+            commet:'学生名字'
+        }
     });
 
     student.associate = function (models) {
-        models.student.belongsTo(models.teacher, {
+        // 将classroomId 添加到student
+        models.student.belongsTo(models.classroom, {
             onDelete: "CASCADE",
-            foreignKey: {
-                allowNull: false
-            }
+            foreignKey:'classroomId',
+            targetKey:'id'
         });
     }
 
