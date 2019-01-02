@@ -22,7 +22,8 @@ module.exports = {
         },
         timestamps: true
       },
-      operatorsAliases: false
+      operatorsAliases: false,
+      logging:false
     }
   }
 };

@@ -49,6 +49,15 @@ class AbstractDao {
       throw error;
     }
   }
+
+  async batchCreation(parm){
+    try {
+      const result = await this.model.bulkCreate(parm);
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = AbstractDao;
