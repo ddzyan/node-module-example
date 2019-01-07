@@ -1,11 +1,9 @@
 module.exports = (sequlize, DataTypes) => {
     const teacher = sequlize.define('teacher', {
-        teacherName: DataTypes.STRING(20)
+        teacherName: {
+            type:DataTypes.STRING(20),
+            allowNull:false
+        }
     });
-
-    teacher.associate = function (models) {
-        models.teacher.hasMany(models.student);
-    }
-
     return teacher;
 };
