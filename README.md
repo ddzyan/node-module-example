@@ -23,9 +23,12 @@
 更新 sequelize orm模型使用demo
 
 ## [2019-1-2]
- [更新 sequelize 模块](https://github.com/ddzyan/node-module-example/tree/master/sequelize)
+ [更新orm sequelize 模块](https://github.com/ddzyan/node-module-example/tree/master/sequelize)
 
 ## [2019-1-3]
-1. [更新 power-assert 模块](https://github.com/ddzyan/node-module-example/tree/master/powerAssert)
+1. [更新断言 power-assert 模块](https://github.com/ddzyan/node-module-example/tree/master/powerAssert)
 2. [更新 sequelize 模块，添加批量创建方法，添加一对一关系家长表](https://github.com/ddzyan/node-module-example/tree/master/sequelize)
 3. 修改每个demo依赖安装路径，避免测试出现BUG
+
+## [2019-1-7]
+1. [更新获取随机数 randomstring 模块](https://github.com/ddzyan/node-module-example/tree/master/randomDemo)
