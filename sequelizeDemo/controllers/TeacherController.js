@@ -1,9 +1,9 @@
 const daos = require("../daos");
 
 class TeacherController {
-  static async add(teacherName) {
+  static async create(teacherName) {
     try {
-      if (!teacherName && teacherName instanceof 'string') {
+      if (!teacherName && teacherName instanceof "string") {
         throw new Error("缺少必要参数");
       }
       const result = await daos.TeacherDao.create({
@@ -16,19 +16,8 @@ class TeacherController {
   }
 
   static async batchCreation(...parm) {
-    let count = 0;
-    let rows = [];
     const result = await daos.TeacherDao.batchCreation(parm);
-    if (result.length > 0) {
-      count = result.length;
-      for(const item of result){
-        rows.push(item.dataValues);
-      }
-    }
-    return {
-      count,
-      rows
-    };
+    return result;
   }
 }
 

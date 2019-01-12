@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "mysql2": "^1.6.4",
+    "randomstring": "^1.1.5",
     "sequelize": "^4.42.0"
   }
 }

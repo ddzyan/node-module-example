@@ -50,14 +50,27 @@ class AbstractDao {
     }
   }
 
-  async batchCreation(parm){
+  async batchCreation(parm) {
     try {
+      let count = 0;
+      let rows = [];
       const result = await this.model.bulkCreate(parm);
-      return result;
+      if (result.length > 0) {
+        count = result.length;
+        for (const item of result) {
+          rows.push(item.dataValues);
+        }
+      }
+      return {
+        count,
+        rows
+      };
     } catch (error) {
       throw error;
     }
   }
+
+  async delete(parm) {}
 }
 
 module.exports = AbstractDao;
