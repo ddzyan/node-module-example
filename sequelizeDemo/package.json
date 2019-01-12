@@ -1,0 +1,22 @@
+{
+  "name": "sequelizeDemo",
+  "version": "1.0.0",
+  "description": "sequelize orm模型使用demo",
+  "main": "config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "power-assert": "^1.6.1"
+  },
+  "dependencies": {
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  }
+}
