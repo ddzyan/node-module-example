@@ -16,6 +16,7 @@
 - 添加console.log 输出文件路径和行号
 - 添加crypto 进行加密和解密
 - 添加接口限流设计方案
+- 添加xlsx文件操作
 
 ## [2018-12-23]
 更新 koa-await-breakpoint 模块使用方法。在koa服务中，对 await 表达式前后自动打点，记录每个请求到来时 await 表达式前后的现场.
@@ -36,3 +37,6 @@
 
 ## [2019-1-24]
 1. [接口限流方案](https://github.com/ddzyan/node-module-example/tree/master/limiter)
+
+## [2019-1-24]
+1. [xlsx文件操作](https://github.com/ddzyan/node-module-example/tree/master/readxlsx)
