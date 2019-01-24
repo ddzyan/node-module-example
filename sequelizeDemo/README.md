@@ -35,4 +35,4 @@ npm run test
 ### [2019-1-13]
 1. 添加初始化数据单元测试
 2. 引入random生成随机数
-3. 添加使用controllers参数的验证
+3. 添加使用 controllers 参数的验证
