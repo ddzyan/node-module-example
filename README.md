@@ -36,3 +36,6 @@
 
 ## [2019-1-24]
 1. [接口限流方案](https://github.com/ddzyan/node-module-example/tree/master/limiter)
+
+## [2019-2-19]
+1. [locust快速上手](https://github.com/ddzyan/node-module-example/tree/master/pressure-test)
