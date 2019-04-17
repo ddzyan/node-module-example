@@ -1,14 +1,23 @@
 # 简介
+
 nodejs 调用动态库 so。
 
 ## 目的
-由于nodejs代码即使使用混淆也容易被破解，可以结合so库不容易破解的特点实现部分加密算法的安全性。
 
-# 依赖
+由于 nodejs 代码即使使用混淆也容易被破解，可以结合 so 库不容易破解的特点实现部分加密算法的安全性。
+
+# npm 依赖
+
 - ode-gyp
 - ffi bindings
 
 # 操作方法
+
+## 前提
+
+由于 node-gyp 不支持 Python 3.x，系统需要安装 python 2.7 版本。
+gcc 版本至少高于 4.8
+
 ```bash
 # 安装依赖
 npm i node-gyp --save
