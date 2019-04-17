@@ -45,7 +45,7 @@ const decryption = function(data, key, iv = "") {
 };
 
 const data = "3ik3FCGhWHNzofdJUNNaPtCbhX5Km7YFBjxjdJUzCb1Q";
-const key = "JON48JQ8-1A23RI9"; // key 必须为16位字符串
+const key = "JON423RI9"; // key 必须为16位字符串
 
 const encryptedData = encryption(data, key);
 console.log("\n%s \n加密后：", data, encryptedData);
