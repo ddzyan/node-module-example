@@ -22,6 +22,8 @@
 
 ## 使用
 ```bash
+npm install --save-dev mocha power-assert intelli-espower-loader
+
 npm i 
 
 npm run test
