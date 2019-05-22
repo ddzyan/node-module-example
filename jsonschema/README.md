@@ -2,7 +2,7 @@
 
 能够快速和简单的使用 JSON schema 验证器。
 
-参考文档：https://www.npmjs.com/package/jsonschema
+参考文档：https://www.npmjs.com/package/jsonschema,https://blog.csdn.net/silence_xiao/article/details/81303935
 
 下载量：178164
 
