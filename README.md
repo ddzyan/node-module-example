@@ -57,3 +57,7 @@
 ## [2019-4-17]
 
 1. [node 调用.so 库方法](https://github.com/ddzyan/node-module-example/tree/master/nodeclib)
+
+## [2019-6-14]
+
+1. [http-proxy 请求转发](https://github.com/ddzyan/node-module-example/tree/master/http-proxyDemo)

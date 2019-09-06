@@ -1,7 +1,7 @@
 {
-  "name": "jsonschema",
+  "name": "http-proxyDemo",
   "version": "1.0.0",
-  "description": "能够快速和简单的使用 JSON schema 验证器。",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonschema": "^1.2.4",
-    "lodash": "^4.17.11"
+    "http-proxy": "^1.17.0"
   }
 }

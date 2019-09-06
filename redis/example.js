@@ -19,7 +19,7 @@ async function redisInit() {
         client.select(0);
 
         await redisString();
-
+        
         await redisHash();
 
         client.quit();
