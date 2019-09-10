@@ -14,11 +14,10 @@ const postMethod = () => {
       let rawData = '';
       res.on('data', chunk => {
         rawData += chunk;
-        console.log('chunk :', chunk);
       });
 
       res.on('end', () => {
-        console.log('接收完成', rawData);
+        console.log('接收完成');
       });
     }
   );

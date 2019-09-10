@@ -2,7 +2,9 @@ const http = require('http');
 const qs = require('querystring');
 const fs = require('fs');
 
-const app = http.createServer((req, res) => {
+const server = http.createServer();
+
+server.on('request', (req, res) => {
   const method = req.method;
   const [url, paramsUrl] = req.url.split('?');
   if (method === 'GET') {
@@ -20,7 +22,7 @@ const app = http.createServer((req, res) => {
       case '/fileDown':
         const readStream = fs.createReadStream('./downFile.txt', { encoding: 'utf-8' });
         readStream.on('data', data => {
-          console.log('正在读取 :', data);
+          console.log('正在读取');
         });
 
         readStream.on('end', () => {
@@ -41,6 +43,6 @@ const app = http.createServer((req, res) => {
   }
 });
 
-app.listen(3000, '127.0.0.1', () => {
+server.listen(3000, '127.0.0.1', () => {
   console.log('服务启动成功');
 });
