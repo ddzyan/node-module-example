@@ -17,7 +17,7 @@ const postMethod = () => {
       });
 
       res.on('end', () => {
-        console.log('接收完成');
+        console.log('接收完成', rawData);
       });
     }
   );
@@ -63,5 +63,5 @@ const getMethod = () => {
   req.end();
 };
 
-getMethod();
+//getMethod();
 postMethod();
