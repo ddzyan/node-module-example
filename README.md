@@ -4,7 +4,7 @@
 
 本人博客：www.zmscode.cn
 
-长期更新 nodejs 和区块链 相关博文。
+长期更新 nodejs 和 区块链 相关博文。
 
 ## 更新节点
 
@@ -61,3 +61,12 @@
 ## [2019-6-14]
 
 1. [http-proxy 请求转发](https://github.com/ddzyan/node-module-example/tree/master/http-proxyDemo)
+
+## [2019-9-11]
+
+1. 模块分类：根据是否是自带模块，和第三方模块功能进行分类
+2. 增加自带模块使用 demo
+   1. [event-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/event-demo)
+   2. [fs-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/fs-demo)
+   3. [http-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/http-demo)
+   4. [process-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/process-demo)
