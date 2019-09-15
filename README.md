@@ -70,3 +70,7 @@
    2. [fs-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/fs-demo)
    3. [http-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/http-demo)
    4. [process-demo](https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/process-demo)
+
+## [2019-9-16]
+
+1. 添加 [loadtest](https://github.com/ddzyan/node-module-example/tree/master/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E6%A8%A1%E5%9D%97/loadtest-demo) 类似 ab 压力测试模块的使用方法
