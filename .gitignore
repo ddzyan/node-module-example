@@ -2,7 +2,7 @@
 node_modules
 
 .vscode
-
+yarn.lock
 .nodejs-grunt
 
 package-lock.json
