@@ -8,6 +8,11 @@ vsCode 开发 nodejs 的一些环境配置，内容包括以下几点：
 - 代码自动修复
 
 ### 配置
+#### 初始化配置文件
+```shell
+npm init
+```
+
 #### js 语法提示
 在项目跟目录下创建 jsconfig.json
 ```json
@@ -28,7 +33,7 @@ typings init
 typings i dt~node --global --save
 ```
 
-在使用第三方模块的时候，也可以通过下载 dt 声明模块，来进行代码编写提示
+在使用第三方模块的时候，也可以通过下载 dt 声明模块，来进行代码编写提示(不是必选)
 ```shell
 # 查询模块 axios
 typings search  axios
@@ -105,7 +110,7 @@ module.exports = {
   //对象大括号直接是否有空格，默认为true，效果：{ foo: bar }
   "bracketSpacing": true, 
   //代码的解析引擎，默认为babylon，与babel相同
-  "parser": "babylon", 
+  "parser": "babel", 
 
   //开启 eslint 支持
   "eslintIntegration": true
