@@ -17,9 +17,11 @@ process.on('unhandledRejection', (reason, promise) => {
   }, MAXTIMEOUT);
 });
 
-process.on('rejectionHandled', error => {
-  unhandledRejections.has(promise) && unhandledRejections.delete(promise);
-  console.log('移出异常列表');
+process.on('rejectionHandled', promise => {
+  if (unhandledRejections.has(promise)) {
+    unhandledRejections.delete(promise);
+    console.log('移出异常列表');
+  }
 });
 
 process.on('uncaughtException', error => {
