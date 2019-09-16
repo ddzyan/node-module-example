@@ -74,3 +74,10 @@
 ## [2019-9-16]
 
 1. 添加 [loadtest](https://github.com/ddzyan/node-module-example/tree/master/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E6%A8%A1%E5%9D%97/loadtest-demo) 类似 ab 压力测试模块的使用方法
+
+## [2019-9-16]
+
+1. 添加 [vsCode 开发 nodejs 环境配置](https://github.com/ddzyan/node-module-example/tree/master/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/eslint-demo)，具备的功能如下
+   1. js 语法提示
+   2. nodejs 自带模块提示
+   3. 代码规范性监测和代码自动修复
