@@ -81,3 +81,7 @@
    1. js 语法提示
    2. nodejs 自带模块提示
    3. 代码规范性监测和代码自动修复
+
+## [2019-10-14]
+
+1. [添加原生模块 chiild_process 的进程创建和守护进程实现 demo](https://github.com/ddzyan/node-module-example/tree/master/native-module/child-process)
