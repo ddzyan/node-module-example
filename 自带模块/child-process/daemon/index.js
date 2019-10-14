@@ -41,11 +41,3 @@ function startDaemon() {
 }
 
 startDaemon();
-
-/* const process = require("process");
-
-const p = spawn("node", ["b.js"], {
-  detached: true
-});
-console.log(process.pid, p.pid);
-process.exit(0); */
