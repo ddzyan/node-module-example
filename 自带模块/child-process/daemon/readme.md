@@ -6,6 +6,10 @@
 - https://baike.baidu.com/item/守护进程
 - http://www.ruanyifeng.com/blog/2016/02/linux-daemon.html
 
+代码仓库：
+
+- https://github.com/ddzyan/node-module-example/tree/master/%E8%87%AA%E5%B8%A6%E6%A8%A1%E5%9D%97/child-process/daemon
+
 了解的内容：
 
 1. 什么是前台任务和后台任务
