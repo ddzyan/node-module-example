@@ -29,7 +29,7 @@ const spawn = require("child_process").spawn;
 function startDaemon() {
   const daemon = spawn("node", ["daemon.js"], {
     detached: true, // 使父子进程分离，子进程独立于父进程运行
-    stdio: "ignore" // 关闭父进程与子进程之间的通讯管道[stdin,stdout,stderr]
+    stdio: "ignore" // 关闭父进程与子进程之间的通讯管道[stdin,stdout,stderr]，如果父进程和子进程有标准I/O有交互，它还是会挂掉
   });
 
   console.log(
