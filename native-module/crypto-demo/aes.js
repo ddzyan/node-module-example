@@ -44,7 +44,8 @@ const decryption = function(data, key, iv = "") {
   return decryption;
 };
 
-const data = "FYLXp1ecxQ6WCPD4axTotHU9RVfPCBLfSeKx1XSCyvdT";
+const data =
+  "0x92f3c10e65b7692b8fcd4828a4424a9fdc03f6b9c2294349b7b1c4937d9b2c03900b3e23130e81e7769ea8305df8e91a0df989eb2e38ddc6a6560e60701d3804";
 const key = "Xu9TK128zsLFtlpn"; // key 必须为16位字符串
 
 const encryptedData = encryption(data, key);
