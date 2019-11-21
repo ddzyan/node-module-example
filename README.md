@@ -89,3 +89,7 @@
 ## [2019-11-11]
 
 1. [使用 nodejs net 模块实现 TCP 传输层协议，搭建聊天室功能](https://github.com/ddzyan/node-module-example/tree/master/native-module/net/chatroom)
+
+## [2019-11-22]
+
+1. [使用 child_process 实现创建多进程服务，共享端口，提高 CPU 利用率](https://github.com/ddzyan/node-module-example/tree/master/native-module/child-process/shared-port)
