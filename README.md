@@ -93,3 +93,7 @@
 ## [2019-11-22]
 
 1. [使用 child_process 实现创建多进程服务，共享端口，提高 CPU 利用率](https://github.com/ddzyan/node-module-example/tree/master/native-module/child-process/shared-port)
+
+## [2019-11-25]
+
+1. [使用 cluster 集群管理，实现创建多进程服务，共享端口，提高 CPU 利用率](https://github.com/ddzyan/node-module-example/tree/master/native-module/cluster)
