@@ -5,28 +5,28 @@ const axios = require('axios');
  * 默认为 get,axios("www.baidu.com")
  */
 
-async function getMethod(url, pamars) {
+async function getMethod(url, params) {
   const result = await axios.get(url, {
-    pamars
+    params,
   });
   return result.data;
 }
 
-async function gpostMethod(url, pamars) {
-  const result = await axios.post(url, pamars);
+async function postMethod(url, params) {
+  const result = await axios.post(url, params);
   return result.data;
 }
 
 /**
  * 并发执行全部请求
  */
-async function asyncMethod(...pamars) {
-  const result = await axios.all(pamars);
+async function asyncMethod(...params) {
+  const result = await axios.all(params);
   return result.data;
 }
 
 module.exports = {
   getMethod,
-  gpostMethod,
-  asyncMethod
+  postMethod,
+  asyncMethod,
 };
