@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/didi/.nvm/versions/node/v12.13.0/bin/node /Users/didi/.yarn/bin/yarn.js add nodemealer
+
+PATH: 
+  /Users/didi/.yarn/bin:/Users/didi/.config/yarn/global/node_modules/.bin:/Users/didi/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://npm.intra.xiaojukeji.com/nodemealer: not_found
+      at Request.params.callback [as _callback] (/Users/didi/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/didi/.yarn/lib/cli.js:140749:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/Users/didi/.yarn/lib/cli.js:141721:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/Users/didi/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "nodemailer-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

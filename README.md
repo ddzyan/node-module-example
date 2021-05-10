@@ -10,15 +10,20 @@
 
 - 初始化项目
 - 添加 ESLint 代码规范检测模块，快速上手教程
-- 添加 winston 日志模块快速上手教程
-- 添加 pm2 node 进行管理快速上手教程
-- 添加 jsonschema 参数验证模块快速上手
-- 添加 axios Promise 的 HTTP 客户端快速上手
+- 添加 winston 案例
+- 添加 pm2 node 案例
+- 添加 jsonschema 案例
+- 添加 axios Promise 的 HTTP 案例
 - 添加 redis 操作
 - 添加 console.log 输出文件路径和行号
 - 添加 crypto 进行加密和解密
 - 添加接口限流设计方案
 - 添加 xlsx 文件操作
+- 添加 nodemailer 案例
+
+## [2021-05-10]
+
+[nodemailer 案例](./工具模块/nodemailer-demo)
 
 ## [2021-01-12]
 
