@@ -13,7 +13,7 @@
     "koa": "^2.6.2"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^5.2.0",
     "power-assert": "^1.6.1",
