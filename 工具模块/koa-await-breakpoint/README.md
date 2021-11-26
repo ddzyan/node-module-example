@@ -8,6 +8,13 @@ koa-await-breakpoint 是一个 Koa 的中间件，是一个在 routes/controller
 5. 执行 await 表达式的结果（result）。
 6. 当前请求的 ctx。
 
+## 使用
+```sh
+npm i 
+
+node ./app
+```
+
 ## 注意
 注意：type 是以下其中一种，take 的单位是 ms。
 
@@ -16,3 +23,5 @@ koa-await-breakpoint 是一个 Koa 的中间件，是一个在 routes/controller
 - afterAwait：这个 awaitExpression 开始到结束。
 - error：错误日志，包含了错误信息。
 - end：请求结束时打点。
+
+

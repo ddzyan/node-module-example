@@ -1,9 +1,0 @@
-{
-  "name": "domian-demo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "koa": "^2.8.1"
-  }
-}

@@ -1,4 +1,0 @@
---bail
---timeout 50000
---recursive
---slow 1000

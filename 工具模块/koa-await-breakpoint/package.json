@@ -1,0 +1,17 @@
+{
+  "name": "koa-await-breakpoint",
+  "version": "1.0.0",
+  "description": "koa-await-breakpoint 是一个 Koa 的中间件，是一个在 routes/controllers 里（作用域包含 ctx）的 await 表达式前后自动打点的工具，不用插入一行日志打点代码，只需要在引入时配置一下，就可以记录每个请求到来时 await 表达式前后的现场，例如：",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-await-breakpoint": "^1.1.0",
+    "koa-router": "^10.1.1"
+  }
+}
