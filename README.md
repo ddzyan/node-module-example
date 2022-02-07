@@ -2,6 +2,12 @@
 
 本项目将包含常用的 node 模块的使用例子，长期更新。
 
+其他核心仓库请参考：
+
+* [javascript 常见模块使用案例](https://github.com/ddzyan/node-module-example)
+* [javascript 数据结构，算法和设计模式实现](https://github.com/ddzyan/algorithmAndDataStructure)
+* [javascript 实践代码，框架源码，原生模块源码实现等](https://github.com/ddzyan/node-project)
+
 # 更新记录
 
 ## [2022-02-07]
