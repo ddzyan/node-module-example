@@ -6,7 +6,7 @@
 
 ## [2022-01-21]
 
-1. [xlsx 文件解析和写入](https://github.com/ddzyan/node-module-example/tree/master/xlsx-demo)
+[xlsx 文件解析和写入](https://github.com/ddzyan/node-module-example/tree/master/xlsx-demo)
 
 ## [2021-05-10]
 
