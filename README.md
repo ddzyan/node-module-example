@@ -4,9 +4,16 @@
 
 # 更新记录
 
+## [2022-02-07]
+
+1. [autocannon 压力测试](https://github.com/ddzyan/node-module-example/tree/master/工具模块/autocannon)
+2. [jsonwebtoken jwt 认证](https://github.com/ddzyan/node-module-example/tree/master/工具模块/jsonwebtoken)
+3. [lodash 常用方法](https://github.com/ddzyan/node-module-example/tree/master/工具模块/lodash)
+4. [console 常用方法](https://github.com/ddzyan/node-module-example/tree/master/原生模块/console)
+
 ## [2022-01-21]
 
-[xlsx 文件解析和写入](https://github.com/ddzyan/node-module-example/tree/master/xlsx-demo)
+[xlsx 文件解析和写入](https://github.com/ddzyan/node-module-example/tree/master/工具模块/xlsx-demo)
 
 ## [2021-05-10]
 
