@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ddzyan/node-module-example#readme",
   "dependencies": {
+    "tcomb": "^3.2.29",
     "xlsx": "^0.17.5"
   },
   "devDependencies": {
