@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const tools = require("./tools");
-const secretKey = "123456";
+const secretKey = "abcdefg";
 
 const token = jwt.sign(
   {
@@ -8,7 +8,7 @@ const token = jwt.sign(
     password: "123456"
   },
   secretKey,
-  { expiresIn: 60 * 60 }
+  { expiresIn: 60 * 60 * 24 * 365 }
 );
 
 console.log("加密完成 token", token);
@@ -32,7 +32,7 @@ console.log("解密完成 decoded", decoded);
  */
 
 const tokenArr = token.split(".");
-// 第一部分声明类型，以及签名使用的算法
+// 第一部分声明类型，以及签名使用的算法0
 // 解析token header {"alg":"HS256","typ":"JWT"} 表示 签名使用的是 HS256 算法
 const header = tools.base64Decode(tokenArr[0]);
 console.log("解析token header", header);

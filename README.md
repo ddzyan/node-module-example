@@ -10,6 +10,10 @@
 
 # 更新记录
 
+## [2022-02-24]
+
+[增加 ctrip-apollo-client 使用案例](./微服务中间件/apollo/ctrip-apollo-client/)
+
 ## [2022-02-16]
 
 [增加 tcomb 使用案例](./工具模块/tcomb-demo)

@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ddzyan/node-module-example#readme",
   "dependencies": {
+    "@lvgithub/ctrip-apollo-client": "^1.0.29",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
     "tcomb": "^3.2.29",
     "xlsx": "^0.17.5"
   },
