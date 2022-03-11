@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const tools = require("./tools");
-const secretKey = "abcdefg";
+const secretKey = "0d9377184356e1a5cb8715e7589f6aaa";
 
 const token = jwt.sign(
   {

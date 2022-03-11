@@ -3,7 +3,7 @@ const Koa = require("koa");
 const app = new Koa();
 
 const apollo = new CtripApolloClient({
-  configServerUrl: "http://106.54.227.205:8080",
+  configServerUrl: "http://121.40.85.62:8080",
   appId: "poolClient",
   configPath: "./config/apolloConfig.json",
   namespaceList: ["application"]

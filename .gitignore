@@ -7,3 +7,5 @@ yarn.lock
 
 package-lock.json
 sequelize/config.js
+
+*.heapsnapshot
